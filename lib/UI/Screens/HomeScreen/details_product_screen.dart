@@ -39,7 +39,8 @@ class _DetailsProductScreenState extends State<DetailsProductScreen> {
                    Row(
                      children: [
                        SizedBox(width: 10.w,),
-                       Icon(Icons.arrow_back_ios_new,color: Colors.black,size: 30,),
+                       GestureDetector(onTap: (){Navigator.pop(context);},
+                           child: Icon(Icons.arrow_back_ios_new,color: Colors.black,size: 30,)),
                        SizedBox(width: 90.w,),
                        Text("Details product",style:AppStyle().black14.copyWith(fontSize: 18,fontWeight: FontWeight.bold),),
                        SizedBox(width: 85.w,),
@@ -136,7 +137,7 @@ class _DetailsProductScreenState extends State<DetailsProductScreen> {
 
                            children: [
                              Text( "\$",style: AppStyle().boldblack30.copyWith(fontSize: 40,color: AppColor().primary  ),),
-                             Text( "${widget.product.price} ",style: AppStyle().boldblack30.copyWith(fontSize: 35),),
+                             Text( "${widget.product.price} ",style: AppStyle().boldblack30.copyWith(fontSize: 32),),
                              SizedBox(width: 30.w,),
                              Container(
                                width: 170.w,
