@@ -1,16 +1,18 @@
-# task_1_camp
+# E-Commerce Mobile App with Flutter
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 
-## Getting Started
+A complete e-commerce mobile application built with Flutter framework, featuring product listings, detailed product views, authentication, and state management with BLoC pattern.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **User Authentication**: Login with email/password
+- **Product Browsing**: View all available products in a grid layout
+- **Product Details**: Detailed view with images, descriptions, and pricing
+- **State Management**: BLoC pattern for efficient state handling
+- **Responsive UI**: Adapts to different screen sizes using ScreenUtil
+- **API Integration**: Connects with dummyjson.com for product data
+- **Modern Design**: Clean and intuitive user interface
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ 
